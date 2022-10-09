@@ -28,13 +28,10 @@ namespace Business.Concrete
         {
             _productDal.Delete(product);
             return new SuccesResult(Messages.ProductDeleted);
-
-
         }
 
         public IDataResult<Product> GetById(int productId)
         {
-            
             return new SuccessDataResult<Product>(_productDal.Get(x => x.ProductId == productId)); 
         }
 
@@ -52,7 +49,6 @@ namespace Business.Concrete
         {
             _productDal.Update(product);
             return new SuccesResult(Messages.ProductUpdated);
-
         }
 
     }

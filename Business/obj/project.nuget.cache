@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "F8YZTqoFeaAl6xQOnqvKpKgXJLpEZYBqS9k3Ui24moXbpTtXiUQ9MlBbhVMdpozksEoP1XjwK0FY8qw8srqVlQ==",
+  "dgSpecHash": "Aay4o2TOPWblRK125cDAgzxpSI0Se/PYVXKmV6WA4F9f34eoqwxfuWw+jAGyRrFZTge9NkVMZ+BhNptuniTMGg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Yasin\\source\\repos\\NortwindBackend\\DotNet_NortwindBackend\\Business\\Business.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Yasin\\.nuget\\packages\\autofac\\4.9.4\\autofac.4.9.4.nupkg.sha512",
     "C:\\Users\\Yasin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Yasin\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Yasin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

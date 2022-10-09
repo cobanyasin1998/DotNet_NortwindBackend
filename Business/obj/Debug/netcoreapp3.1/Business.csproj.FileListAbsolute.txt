@@ -1,0 +1,17 @@
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Business\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Business\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Business\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Business\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Business\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Business\obj\Debug\netcoreapp3.1\Business.pdb

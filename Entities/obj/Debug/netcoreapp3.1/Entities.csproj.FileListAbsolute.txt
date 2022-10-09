@@ -8,3 +8,6 @@ C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Entities\obj\
 C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
 C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Entities\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Entities\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Yasin\source\repos\NortwindBackend\DotNet_NortwindBackend\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
