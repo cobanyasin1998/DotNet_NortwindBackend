@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "YddU/ryZqNyFS9mq/AchFiFwNmw/wDz/Y6YuiQ5HhS6FKapnvkIlfgmP9z0LK7G7OCxZrWE+PfwHGGoHm4jRpQ==",
+  "dgSpecHash": "5YbdSDaME1TFtZUaVoUmZrseHTUB6qrB1DTpYuQJwgqZtDwLWsqofeObTemPx97OgQcqzB/hSaq+KoHUVwdBtA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Yasin\\source\\repos\\NortwindBackend\\DotNet_NortwindBackend\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yasin\\.nuget\\packages\\autofac\\4.9.4\\autofac.4.9.4.nupkg.sha512",
     "C:\\Users\\Yasin\\.nuget\\packages\\autofac.extensions.dependencyinjection\\4.4.0\\autofac.extensions.dependencyinjection.4.4.0.nupkg.sha512",
+    "C:\\Users\\Yasin\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.30\\microsoft.aspnetcore.authentication.jwtbearer.3.1.30.nupkg.sha512",
     "C:\\Users\\Yasin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Yasin\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Yasin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
