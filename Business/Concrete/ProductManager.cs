@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Contants;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -15,12 +17,15 @@ namespace Business.Concrete
         {
             _productDal = productDal;
         }
-
+        [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
-            //BUSINESS CODE
+
+
+            //Business Codes
+
             _productDal.Add(product);
-           return new SuccesResult(Messages.ProductAdded);
+            return new SuccesResult(Messages.ProductAdded);
 
         }
 
@@ -32,12 +37,12 @@ namespace Business.Concrete
 
         public IDataResult<Product> GetById(int productId)
         {
-            return new SuccessDataResult<Product>(_productDal.Get(x => x.ProductId == productId)); 
+            return new SuccessDataResult<Product>(_productDal.Get(x => x.ProductId == productId));
         }
 
         public IDataResult<List<Product>> GetList()
         {
-             return new SuccessDataResult<List<Product>>(_productDal.GetList().ToList());
+            return new SuccessDataResult<List<Product>>(_productDal.GetList().ToList());
         }
 
         public IDataResult<List<Product>> GetListByCategory(int categoryId)
