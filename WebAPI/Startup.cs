@@ -1,3 +1,5 @@
+using Core.DependencyResolvers;
+using Core.Extensions;
 using Core.Utilities.Security.Encyption;
 using Core.Utilities.Security.Jwt;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -21,6 +23,7 @@ namespace WebAPI
 
         public void ConfigureServices(IServiceCollection services)
         {
+
             services.AddControllers();
             services.AddCors(opt =>
             {
@@ -46,6 +49,11 @@ namespace WebAPI
                     IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
                 };
             });
+
+            services.AddDependencyResolvers(new Core.Utilities.IoC.ICoreModule[]
+            {
+                new CoreModule(),
+            });
         }
 
 
@@ -59,8 +67,6 @@ namespace WebAPI
             app.UseCors(builder =>
             {
                 builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
-
-
             });
             app.UseHttpsRedirection();
 

@@ -3,6 +3,7 @@ using Autofac.Extras.DynamicProxy;
 using Business.Abstract;
 using Business.Concrete;
 using Castle.DynamicProxy;
+using Core.Utilities.Interceptors.Autofac;
 using Core.Utilities.Security.Jwt;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
@@ -29,7 +30,7 @@ namespace Business.DependencyResolvers.AutoFac
                 .EnableInterfaceInterceptors(new ProxyGenerationOptions()
                 {
 
-                    //Selector = new AspectInterceptorSelector()
+                    Selector = new AspectInterceptorSelector()
 
                 }).SingleInstance();
 
