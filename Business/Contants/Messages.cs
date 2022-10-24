@@ -1,4 +1,6 @@
-﻿namespace Business.Contants
+﻿using System.Runtime.Serialization;
+
+namespace Business.Contants
 {
     public static class Messages
     {
@@ -13,5 +15,7 @@
         public static string UserAlreadyExists = "Bu kullanıcı zaten mevcut";
         public static string UserRegistered = "Kullanıcı kaydoldu";
         public static string AccessTokenCreated = "AccessToken Oluşturuldu";
+
+        public static string AuthrizationDenied = "Erişim Yetkiniz Bulunmamaktadır";
     }
 }
