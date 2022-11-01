@@ -3,6 +3,7 @@ using Business.BusinessAspects.Autofac;
 using Business.Contants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Exception;
 using Core.Aspects.Autofac.Logging;
 using Core.Aspects.Autofac.Performance;
 using Core.Aspects.Autofac.Transaction;
@@ -51,6 +52,7 @@ namespace Business.Concrete
             return new SuccessDataResult<Product>(_productDal.Get(x => x.ProductId == productId));
         }
         [PerformanceAspect(1)]
+        //[ExceptionLogAspect(typeof(FileLogger))]
         public IDataResult<List<Product>> GetList()
         {
             return new SuccessDataResult<List<Product>>(_productDal.GetList().ToList());
